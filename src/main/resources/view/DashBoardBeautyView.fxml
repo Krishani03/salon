@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="DashboardBeauty_Pane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.gdse71.salon.salon.controller.DashBoardBeautyController">   <children>
+      <Pane layoutX="242.0" layoutY="157.0" prefHeight="500.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0">
+         <children>
+            <ImageView fitHeight="500.0" fitWidth="800.0">
+               <image>
+                  <Image url="@../img/beapic.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="customerDetail_btn" layoutX="463.0" layoutY="112.0" mnemonicParsing="false" onAction="#customerDetail_btn_OnAction" prefHeight="52.0" prefWidth="303.0" style="-fx-background-color: ec9eeb;" text="Customer Details">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="appointmentDetail_btn" layoutX="463.0" layoutY="224.0" mnemonicParsing="false" onAction="#appointmentDetail_btn_OnAction" prefHeight="52.0" prefWidth="303.0" style="-fx-background-color: ec9eeb;" text="Appoinment Details">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="back_btn" layoutX="469.0" layoutY="364.0" mnemonicParsing="false" onAction="#back_btn_OnAction" prefHeight="32.0" prefWidth="109.0" style="-fx-background-color: f076c7;" text="Back">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Label layoutX="143.0" layoutY="34.0" prefHeight="66.0" prefWidth="656.0" style="-fx-background-color: dd97da;" text="                    Beautician Task...." AnchorPane.bottomAnchor="500.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
